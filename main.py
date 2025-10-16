@@ -15,3 +15,5 @@ if __name__ == "__main__":
     result = whisper.decode(model, mel, options)
 
     print(result.text)
+
+
